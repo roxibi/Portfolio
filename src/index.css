@@ -3,6 +3,7 @@
 
 
 body {
+    padding-top: 1rem;
 background-color: black;
 color: white;
 font-family: 'Poppins', sans-serif;
@@ -97,8 +98,8 @@ a:hover{
 
 .btn:hover {
     background: var(--color-white);
-    color: var(--color-bg);
-    border-color: transparent;
+    color: var(--color-white);
+    border-color: white;
 }
 
 .btn-primary{
