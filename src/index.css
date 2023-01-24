@@ -4,7 +4,11 @@
 
 body {
     padding-top: 1rem;
-background-color: black;
+/* Created with https://www.css-gradient.com */
+background: #010101;
+background: -webkit-linear-gradient(bottom, #010101, #014F84);
+background: -moz-linear-gradient(bottom, #010101, #014F84);
+background: linear-gradient(to top, #010101, #014F84);
 color: white;
 font-family: 'Poppins', sans-serif;
 }
@@ -19,7 +23,7 @@ font-family: 'Poppins', sans-serif;
 }
 
 :root {
---color-bg:#1f1f38;
+--color-bg: linear-gradient(#1f1f38, #9198e5);
 --color-bg-variant: #2c2c6c;
 --color-primary: #4db5ff;
 --color-primary-variant: rgbs(77, 181, 255, 0.4)
