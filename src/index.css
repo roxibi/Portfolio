@@ -46,7 +46,9 @@ html {
 
 
 }
-
+section > p{
+    text-align: center;
+}
 
 .container {
     width: var(--container-width-md);
