@@ -31,13 +31,7 @@ const Experience = () => {
                     </div>
                 ))}
 
-                {/* <div className='experience__frontend'></div>
-
-                <div className='experience__backend'></div>
-
-                <div className='experience__methodologies'></div>
-
-                <div className='experience__tools'></div> */}
+            
             </div>
         </section>
     );
