@@ -12,9 +12,9 @@ const Header = () => {
                 <h2 className="capitals">FULLSTACK DEVELOPER</h2>
                 <CTA />
             
-                <div className="img">
+                {/* <div className="img">
                   <img src={color} alt=""></img>
-                </div>
+                </div> */}
                 <Socials />
                 <a href="#contact" className="scroll__down">Scroll Down</a>
             </div>
