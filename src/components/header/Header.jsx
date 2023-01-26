@@ -2,7 +2,7 @@ import React from "react";
 import CTA from "./CTA";
 import Socials from "./Socials";
 import "./header.css";
-import color from '../../assets/color.png'
+
 const Header = () => {
     return (
         <header id="header">
