@@ -16,18 +16,25 @@ backdrop-filter: blur(15px);
 
 nav a{
     background: transparent;
+    height: 3rem;
+    width: 3rem;
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
     font-size: 1.1rem;
-}
+    text-align: center;
 
+}
+ nav i {
+    margin: auto;
+ }
 nav a:hover{
-    background: var(rgba(0,0,0, 0.3))
+    background: var(rgba(0,0,0, 0.3));
+    color: var(--color-primary);
 }
 
 nav a.active {
     background: var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-primary);
 }

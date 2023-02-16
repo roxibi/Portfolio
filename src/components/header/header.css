@@ -112,6 +112,10 @@ img {
     header {
         height: 68vh;
     }
+    .header__container h2{
+        font-size: 70px ;
+        line-height: 5rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -122,5 +126,9 @@ img {
     .header__socials,
     .scroll__down {
         display: none;
+    }
+    .header__container h2{
+        font-size: 60px ;
+        line-height:5rem;
     }
 }
