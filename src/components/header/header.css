@@ -62,6 +62,7 @@ body {
 .cta {
     margin-top: 2.5rem;
     display: flex;
+    flex-wrap: wrap;
     gap: 1.2rem;
     justify-content: center;
 }
@@ -115,6 +116,15 @@ img {
     .header__container h2{
         font-size: 70px ;
         line-height: 5rem;
+        margin:1rem auto;
+    }
+
+    .capitals {
+        max-width: 95%;
+    }
+    .header__container {
+       
+         height: 60vh;
     }
 }
 
@@ -128,7 +138,11 @@ img {
         display: none;
     }
     .header__container h2{
-        font-size: 60px ;
+        font-size: 50px ;
         line-height:5rem;
+      
+    }
+    .capitals {
+        max-width: 95%;
     }
 }
