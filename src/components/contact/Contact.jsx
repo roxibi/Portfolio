@@ -21,7 +21,7 @@ const Contact = () => {
                         <a href='mailto:roxana.bita@gmail.com'>
                             {" "}
                             Phone <br />
-                            <i class='fa fa-phone-square fa-3x' aria-hidden='true'></i> <h4></h4>
+                            <i class='fa fa-phone-square fa-3x' aria-hidden='true'></i> 
                         </a>
                     </article>
                 </div>
