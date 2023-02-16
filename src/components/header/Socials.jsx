@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 const Socials = () => {
     return (
         <div className='header__socials'>
@@ -11,6 +12,9 @@ const Socials = () => {
             <i className="fa fa-github-square fa-3x" aria-hidden="true"></i>
             </a>
             {/* <a href="" target="_blank"></a> */}
+            <a href='mailto:roxana.bita@gmail.com' target='_blank' rel='noreferrer'>
+            <i className="fa fa-envelope fa-3x" aria-hidden="true"></i>
+            </a>
         </div>
     );
 };
