@@ -32,6 +32,10 @@ gap:1.2rem;
     display: inline-block;
     font-size: 0.8rem;
 }
+
+.contact__option i {
+margin-bottom: 1rem;
+}
 .fa-envelope:hover {
     color: var(--color-primary);
 
