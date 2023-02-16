@@ -5,7 +5,7 @@ import './navbar.css'
 const Navbar = () => {
     const [activeNav, setActiveNav] = useState("#");
 
-const navlinks=[{'name':'', 'icon':'home'}, {'name':'about', 'icon':'user'}, {'name':'experience', 'icon':'briefcase'}, {'name':'portfolio', 'icon':'picture-o'}, {'name':'services', 'icon':'handshake-o' } , {'name':'contact','icon':'paper-plane'}]
+const navlinks=[{'name':'', 'icon':'home'}, {'name':'about', 'icon':'user'}, {'name':'experience', 'icon':'briefcase'}, {'name':'portfolio', 'icon':'picture-o'}, {'name':'contact','icon':'paper-plane'}]
 
 
     return (
