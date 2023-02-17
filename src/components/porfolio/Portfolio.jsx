@@ -19,7 +19,7 @@ const Portfolio = () => {
             image: News,
             title: "My Daily News",
             description:
-                "A simple news app which draws the most important news from an API according to the categories I have set as my interests.",
+                "A simple news app which draws the most important news from an API according to the categories I have set as my interests. Live Demo coming soon!",
             github: "https://github.com/roxibi/my-daily-news.github.io",
             demo: "coming soon",
         },
