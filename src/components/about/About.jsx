@@ -18,19 +18,19 @@ const About = () => {
   <div className="about__cards">
     <article className="about__card">
       <h3>Experience</h3>
-      <i class="fa fa-trophy" aria-hidden="true"></i>
+      <i className="fa fa-trophy" aria-hidden="true"></i>
       <small>7+ years working</small>
     </article>
 
     <article className="about__card">
       <h3>Experience</h3>
-      <i class="fa fa-trophy" aria-hidden="true"></i>
+      <i className="fa fa-trophy" aria-hidden="true"></i>
       <small>7+ years working</small>
     </article>
 
     <article className="about__card">
       <h3>Experience</h3>
-      <i class="fa fa-trophy" aria-hidden="true"></i>
+      <i className="fa fa-trophy" aria-hidden="true"></i>
       <small>7+ years working</small>
     </article>
   </div>

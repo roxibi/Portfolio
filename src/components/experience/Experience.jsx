@@ -23,7 +23,7 @@ const Experience = () => {
                         <ul className='experience__list'>
                             {blocks[skill].map((s) => (
                                 <li key={skill} className='experience__li'>
-                                    <i class='fa fa-check-circle' aria-hidden='true'></i>
+                                    <i className='fa fa-check-circle' aria-hidden='true'></i>
                                     <span>{s}</span>
                                 </li>
                             ))}

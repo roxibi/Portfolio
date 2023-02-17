@@ -12,7 +12,7 @@ const navlinks=[{'name':'', 'icon':'home'}, {'name':'about', 'icon':'user'}, {'n
         <nav>
           {navlinks.map((section)=> (
             <a href={'#'+section.name} onClick={()=>setActiveNav('#'+ section.name)} className={activeNav==='#'+section.name? 'active' : ''}>
-                <i class={`active fa fa-${section.icon}`} aria-hidden='true'></i></a>)
+                <i key={'#'+section.name} className={`active fa fa-${section.icon}`} aria-hidden='true'></i></a>)
           )}
            
 
