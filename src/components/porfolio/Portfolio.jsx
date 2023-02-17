@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import BB from "../../assets/mockup-bb.png";
+import News from "../../assets/mockup-news.png";
 
 const Portfolio = () => {
     const projects = [
@@ -15,7 +16,7 @@ const Portfolio = () => {
         },
         {
             id: 2,
-            image: BB,
+            image: News,
             title: "My Daily News",
             description:
                 "A simple news app which draws the most important news from an API according to the categories I have set as my interests.",
