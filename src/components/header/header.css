@@ -142,3 +142,16 @@ img {
         line-height: 3rem;
     }
 }
+
+.btnEn {
+    position: absolute;
+    top: -15%;
+    right: 0%;
+    padding: 0.3rem;
+}
+.btnDe {
+    position: absolute;
+    top: -15%;
+    right: 5%;
+    padding: 0.3rem;
+}
