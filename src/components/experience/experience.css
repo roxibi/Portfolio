@@ -59,3 +59,8 @@ li i {
         padding: 3rem 4rem;
     }
 }
+@media screen and (max-width: 300px) {
+    .experience__container > div {
+        padding: 1rem 2rem;
+    }
+}

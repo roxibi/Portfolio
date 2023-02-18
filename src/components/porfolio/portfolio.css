@@ -65,3 +65,16 @@ border-radius: 2rem;
     }
 
 }
+@media screen and (max-width: 300px) {
+#portfolio div{
+    max-width: 90%;
+}
+
+.portfolio__item {
+    max-width: 250;
+}
+article p{
+    min-width: none;
+    max-width: 250px;
+}
+}
