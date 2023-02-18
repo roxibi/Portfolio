@@ -7,7 +7,8 @@ const Header = () => {
     return (
         <header id="header">
             <div className='container header__container'>
-            <button className="language btn btn-primary btnEn" ><a href='/en'> EN</a></button> <button className="language btn btn-primary btnDe"> <a href='/'> DE</a></button>
+            <div className="buttons-lang">
+            <button className="language btn btn-primary btnEn" ><a href='/en'> EN</a></button> <button className="language btn btn-primary btnDe"> <a href='/'> DE</a></button></div>
             <div>  <p>Hello I'm</p>   
                         </div>
                       

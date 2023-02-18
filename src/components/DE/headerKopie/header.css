@@ -49,7 +49,7 @@ body {
     -moz-background-clip: text;
     -webkit-background-clip: text;
     text-transform: uppercase;
-    font-size: 120px;
+   
     margin: 3rem auto;
 }
 
@@ -142,3 +142,4 @@ img {
         line-height: 3rem;
     }
 }
+

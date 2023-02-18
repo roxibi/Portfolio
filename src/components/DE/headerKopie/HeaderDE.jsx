@@ -5,19 +5,28 @@ import "./header.css";
 
 const HeaderDE = () => {
     return (
-        <header id="header">
+        <header id='header'>
             <div className='container header__container'>
-             
+                <div className="buttons-lang">
+                <button className='language btn btn-primary btnEn'>
+                    <a href='/en'> EN</a>
+                </button>{" "}
+                <button className='language btn btn-primary btnDe'>
+                    {" "}
+                    <a href='/'> DE</a>
+                </button>
+                </div>
                 <p>Hallo, ich bin</p>
                 <h1>Roxana Bita</h1>
-                <h2 className="capitals">FULLSTACK-WEB-ENTWICKLERIN</h2>
+                <h2 className='capitals h2De'>FULLSTACK-WEB-ENTWICKLERIN</h2>
                 <CTA />
-            
                 {/* <div className="img">
                   <img src={color} alt=""></img>
                 </div> */}
                 <Socials />
-                <a href="#contact" className="scroll__down">Runterscrollen</a>
+                <a href='#contact' className='scroll__down'>
+                    Runterscrollen
+                </a>
             </div>
         </header>
     );

@@ -23,8 +23,8 @@ const ContactDE = () => {
 
     return (
         <section id='contact'>
-            <p>Get in Touch</p>
-            <h2>Contact Me</h2>
+           
+            <h2>Kontakt</h2>
 
             <div className='container contact__container'>
                 <div className='contact__options'>
@@ -32,7 +32,7 @@ const ContactDE = () => {
                         <a href='mailto:roxana.bita@gmail.com' target='_blank' rel="noopener noreferrer">
                             {" "}
                             <i className='fa fa-envelope fa-3x' aria-hidden='true'></i>
-                            <br /> <h4>roxana.bita@gmail.com</h4> <p>Email me </p>
+                            <br /> <h4>roxana.bita@gmail.com</h4> <p>Email </p>
                         </a>
                     </article>
 
@@ -40,25 +40,25 @@ const ContactDE = () => {
                         <a href='https://www.linkedin.com/in/roxana-bita/' target='_blank' rel="noopener noreferrer">
                             {" "}
                             <i className='fa fa-linkedin-square fa-3x' aria-hidden='true'></i> <br />{" "}
-                            <h4>linkedin.com/roxana-bita</h4> <p>Message me </p>
+                            <h4>linkedin.com/roxana-bita</h4> <p>Verlinken </p>
                         </a>
                     </article>
                 </div>
 
                 <form action='' ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
-      <input type="text" name="user_name" placeholder='Your Full Name' required/>
-      <label>Email</label>
-      <input type="email" name="user_email" placeholder='Your Email' required/>
-      <label>Message</label>
+      <input type="text" name="user_name" placeholder='Name' required/>
+      <label>E-mail</label>
+      <input type="email" name="user_email" placeholder='Email' required/>
+      <label>Nachricht</label>
                     
-                    <textarea name='message' rows='7' placeholder='Your Message'></textarea>
+                    <textarea name='message' rows='7' placeholder='Nachricht'></textarea>
                  
                     <input type='submit' className='btn btn-primary' value="Send" >
                       
                         
                     </input>
-                    {submitted && <p>Thank you for contacting me! I will get back to you as soon as possible.</p>}
+                    {submitted && <p>Danke sehr für die Nachricht! Ich melde mich so schnell wie möglich zurück. </p>}
                 </form>
                
             </div>

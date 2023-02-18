@@ -14,7 +14,7 @@ const CTADE = () => {
 
             <a href='#contact' className='btn btn-primary'>
                 {" "}
-                Contact me
+                Kontakt
             </a>
         </div>
     );

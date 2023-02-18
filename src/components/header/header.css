@@ -49,7 +49,7 @@ body {
     -moz-background-clip: text;
     -webkit-background-clip: text;
     text-transform: uppercase;
-    font-size: 120px;
+   
     margin: 3rem auto;
 }
 
@@ -142,16 +142,20 @@ img {
         line-height: 3rem;
     }
 }
-
-.btnEn {
+.buttons-lang{
     position: absolute;
-    top: -15%;
+    top: 0%;
     right: 0%;
+}
+.btnEn {
+   
     padding: 0.3rem;
+    
 }
 .btnDe {
-    position: absolute;
-    top: -15%;
-    right: 5%;
+    
     padding: 0.3rem;
 }
+.h2De{
+    font-size: 2rem;
+    }
