@@ -5,8 +5,8 @@ import bw from "../../../assets/bw.png";
 const AboutDE = () => {
     return (
         <section id='about'>
-            <p>Get to know</p>
-            <h2>About me</h2>
+            <p>Mehr herausfinden</p>
+            <h2>Über mich</h2>
             <div className='container about__container'>
                 <div className='about__me'>
                     <div className='about__me-image'>
@@ -18,47 +18,36 @@ const AboutDE = () => {
                     <div className='about__cards'>
                         <article className='about__card'>
                             <i className='fa fa-trophy' aria-hidden='true'></i>
-                            <h3>Experienced</h3>
+                            <h3>Erfahren</h3>
 
-                            <small> 7+ years professional experience in communication. </small>
+                            <small> 7+ berufserfahrung in der Kommunikation. </small>
                         </article>
 
                         <article className='about__card'>
                             {" "}
                             <i className='fa fa-trophy' aria-hidden='true'></i>
-                            <h3>Dedicated</h3>
+                            <h3>Motiviert</h3>
                             <small>
-                                Passionate about providing cutting edge web solutions.
+                                Ich brenne für die Entwicklung modernster Web-Lösungen.
                             </small>
                         </article>
 
                         <article className='about__card'>
-                            <i className='fa fa-trophy' aria-hidden='true'></i> <h3>Competent</h3>
-                            <small>Always curious, always improving my skills. </small>
+                            <i className='fa fa-trophy' aria-hidden='true'></i> <h3>Kompetent</h3>
+                            <small>Immer neugierig, immer lernbegeistert.  </small>
                         </article>
                     </div>
 
                     <p>
-                        As a web developer with a
-                        background in social sciences and communication, I  make
-                        use of my transdisciplinary knowledge to build sustainable, well-designed web solutions. I like creating digital products that
-                        actually have an impact, designing them with the needs of the target audience (including
-                        accessibility) and the strategic interests of the company in mind. <br/> <br/>With React, JavaScript, HTML,
-                        CSS, ExpressJS and SQL/MongoDB I strive to create an elegant choreography of high performance
-                        and aesthetic appeal.
+                    Als Webentwicklerin mit sozialwissenschaftlichem und kommunikativem Hintergrund sehe ich das transformative Potenzial der Digitalisierung für unsere Gesellschaft und liebe es, diese endlosen Möglichkeiten zu erforschen. Ich nutze mein transdisziplinäres Wissen, um nachhaltige, gut durchdachte Web-Lösungen zu entwickeln. Meine Erfahrung in der Wissenschaftskommunikation und im Verlagswesen hilft mir dabei, digitale Produkte zu schaffen, die tatsächlich etwas bewirken, und sie mit Blick auf die Bedürfnisse des Zielpublikums zu gestalten (einschließlich Barrierefreiheit). 
                         
-                        <br/> <br/> I bring warmth and great communication skills to a team, and strive
-                        to innovate and to improve processes. I work very results-oriented and mindful of my target audience. 
-                        Colleagues appreciate my creativity, my talent for always finding new tools to make life easier,
-                        and they see me as helpful, reliable and adaptable. I thrive in collaborative environments where
-                        teamwork, life long learning and real world impact are valued. 
+                        <br/> <br/>Ich bringe Wärme und ausgeprägte Kommunikationsfähigkeiten in ein Team ein, ebenso wie ein Auge für Innovation und Ästhetik. Ich arbeite sehr ergebnisorientiert und lege viel Wert auf gutes Projektmanagement. Meine Kolleg*innen schätzen meine Kreativität und mein Talent, immer neue Tools zu finden, und sie sehen mich als hilfsbereit, zuverlässig und anpassungsfähig. Ich fühle mich in einem kollaborativen Umfeld wohl, in dem Teamarbeit, lebenslanges Lernen und Nachhaltigkeit hohen Stellenwert haben.
+
                         
-                        <br/> <br/>In my spare time I love making
-                        collage art and I manage communication and recruitment for Leihbar Bonn, Bonn's first library of
-                        things. #borrowdontbuy
+                        <br/> <br/>In meiner Freizeit mache ich gerne Collage-Kunst und manage die Kommunikation und Rekrutierung für die Leihbar Bonn, Bonns erste Bibliothek der Dinge. #borrowdontbuy
                     </p>
                     <a href='#contact' className='btn btn-primary'>
-                        Let's talk!
+                        Jetzt Kontakt aufnehmen
                     </a>
                 </div>
             </div>
