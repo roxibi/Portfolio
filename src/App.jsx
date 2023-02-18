@@ -13,7 +13,7 @@ function App() {
          
         <Routes>  <Route path={'/'} element={<DE/>}/> 
                  <Route path={'/en'} element={<EN/>}/> </Routes>
-            
+                 <p className="footer"><small>Copyright Roxana Anamaria Bita 2023</small></p>
         </Router>
     );
 }

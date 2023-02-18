@@ -6,6 +6,7 @@ import AboutDE from "./aboutKopie/AboutDE";
 import ExperienceDE from "./experienceKopie/ExperienceDE";
 import PortfolioDE from "./porfolioKopie/PortfolioDE";
 import ContactDE from "./contactKopie/ContactDE";
+import FooterDE from "./footerKopie/FooterDE";
 
 
 function DE() {
@@ -17,7 +18,7 @@ function DE() {
             <ExperienceDE />
             <PortfolioDE />
             <ContactDE />
-           
+            <FooterDE />
         </>
     );
 }

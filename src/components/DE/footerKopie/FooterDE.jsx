@@ -4,7 +4,7 @@ import './footer.css'
 const FooterDE = () => {
   return (
     <section id="footer">
-      
+    
     </section>
   )
 }
