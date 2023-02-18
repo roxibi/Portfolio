@@ -1,30 +1,18 @@
-
-import './App.css';
-import React from 'react';
- import Header from './components/header/Header'
- import Navbar from './components/navbar/Navbar'
- import About from './components/about/About'
- import Experience from './components/experience/Experience'
- import Services from './components/services/Services'
- import Portfolio from './components/porfolio/Portfolio'
- import Contact from './components/contact/Contact'
- import Footer from './components/footer/Footer'
+import "./App.css";
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import EN from "./components/header/EN";
+import DE from "./components/header/DE";
 
 function App() {
-  return (
-    <>
-    <Header />
-    <Navbar />
-    <About />
-    <Experience />
-    <Services />
-    <Portfolio />
-    <Contact />
-    <Footer />
-
-
-    </>
-  );
+    return (
+        <Router>
+            <>
+                <EN />
+                <DE />
+            </>
+        </Router>
+    );
 }
 
 export default App;
