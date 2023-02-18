@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
-import BB from "../../assets/mockup-bb.png";
-import News from "../../assets/mockup-news.png";
+import BB from "../../../assets/mockup-bb.png";
+import News from "../../../assets/mockup-news.png";
 
 const PortfolioDE = () => {
     const projects = [

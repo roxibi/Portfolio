@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+#language {
+  padding-right: 4.5rem;
+  text-align: right;
+}
+
+#language button{
+padding: 0.3rem;
+}
+
+.language a{
+  color:var(--color-bg)
+
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import bw from "../../assets/bw.png";
+import bw from "../../../assets/bw.png";
 
 const AboutDE = () => {
     return (
