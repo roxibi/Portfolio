@@ -1,7 +1,7 @@
 import React from "react";
 import CTA from "./CTADE";
 import Socials from "./SocialsDE";
-import "./header.css";
+import "../../header/header.css";
 
 const HeaderDE = () => {
     return (

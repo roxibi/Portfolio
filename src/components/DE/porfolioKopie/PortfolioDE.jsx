@@ -1,5 +1,5 @@
 import React from "react";
-import "./portfolio.css";
+import "../../porfolio/portfolio.css";
 import BB from "../../../assets/mockup-bb.png";
 import News from "../../../assets/mockup-news.png";
 
@@ -8,6 +8,7 @@ const PortfolioDE = () => {
         {
             id: 1,
             image: BB,
+            stack:["React" , "Tailwind" , "NodeJS" , "ExpressJS" , "xzing library" , "Google Books API" , "Netlify" , "Cyclic"],
             title: "Bookbandits",
             description:
                 "Eine App die das Teilen von Büchern ermöglicht. Einfach den Barcode scannen und Bücher zum eigenen Profil hochladen, dann das Katalog durchsuchen und Bücher von anderen ausleihen. in Zusammenarbeit mit Michel W., Tiefengnom.",
@@ -17,11 +18,12 @@ const PortfolioDE = () => {
         {
             id: 2,
             image: News,
+            stack:["React" , "CSS" , "NodeJS" , "ExpressJS" , "NewsAPI" , "Netlify" , "Cyclic"],
             title: "My Daily News",
             description:
-                "Eine News-App die die wichtigsten Nachrichten aus einer API holt und sie pro Kategorie, die mich interessiert, auf einem Blick darstellt. Live Demo kommt bald!",
+                "Eine News-App die die wichtigsten Nachrichten aus einer API holt, und diese für jede Kategorie, die mich interessiert, auf einem Blick darstellt.",
             github: "https://github.com/roxibi/my-daily-news.github.io",
-            demo: "coming soon",
+            demo: "https://my-daily-news.netlify.app/",
         },
         // {
         //     id: 3,
@@ -55,6 +57,7 @@ const PortfolioDE = () => {
                             <div className='portfolio__item-image'>
                                 <img src={p.image} alt='mockup website' />
                             </div>
+                            <ul className="stack">{p.stack.map((s)=>{return <li><i class="fa fa-wrench" aria-hidden="true"></i>{s}</li>})}</ul>
                             <h3>{p.title}</h3>
                             <p>{p.description}</p>
                             <div className='buttons'>

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import React from "react";
-import './navbar.css'
+import "../../navbar/navbar.css";
 
 const NavbarDE = () => {
     const [activeNav, setActiveNav] = useState("#");
