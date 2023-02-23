@@ -5,20 +5,33 @@ import "../../contact/contact.css";
 const ContactDE = () => {
     const form = useRef();
     const [submitted, setSubmitted] = useState(false);
+    const [answer, setAnswer] = useState();
+    const [num1, setNum1] = useState(Math.floor(Math.random() * 25));
+    const [num2, setNum2] = useState(Math.floor(Math.random() * 25));
+
+    const refresh = (e) => {
+        e.preventDefault();
+        setNum1(Math.floor(Math.random() * 15));
+        setNum2(Math.floor(Math.random() * 15));
+    };
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm("service_arvfwvn", "template_k7qfd84x", form.current, "TkdceoCwkSVemG6s6").then(
-            (result) => {
-                console.log(result.text);
-                e.target.reset();
-                setSubmitted(true);
-            },
-            (error) => {
-                console.log(error.text);
-            }
-        );
+        console.log(answer, num1, num2);
+        if (parseInt(answer) === num1 + num2) {
+            emailjs.sendForm("service_arvfwvn", "template_k7qfd84x", form.current, "TkdceoCwkSVemG6s6").then(
+                (result) => {
+                    console.log(result.text);
+                    e.target.reset();
+                    setSubmitted(true);
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+        } else {
+            alert("Ups, falsche Antwort.");
+        }
     };
 
     return (
@@ -54,6 +67,13 @@ const ContactDE = () => {
                     <label>Nachricht</label>
 
                     <textarea name='message' rows='7' placeholder='Nachricht'></textarea>
+                    <div className="captcha">
+                    <p >
+                        {" "}
+                        {num1}+{num2}?
+                    </p>{" "}
+                    <button className="btn refresh" onClick={refresh}><i class="fa fa-refresh" aria-hidden="true"></i></button> </div>
+                    <input type='number' onChange={(e) => setAnswer(e.target.value)}></input>
 
                     <input type='submit' className='btn btn-primary' value='Send'></input>
                     {submitted && <p>Danke sehr für die Nachricht! Ich melde mich so schnell wie möglich zurück. </p>}

@@ -11,8 +11,8 @@ const Contact = () => {
 
     const refresh = (e) => {
         e.preventDefault();
-        setNum1(Math.floor(Math.random() * 25));
-        setNum2(Math.floor(Math.random() * 25));
+        setNum1(Math.floor(Math.random() * 15));
+        setNum2(Math.floor(Math.random() * 15));
     };
 
     const sendEmail = (e) => {
@@ -30,7 +30,7 @@ const Contact = () => {
                 }
             );
         } else {
-            alert("something went wrong yo");
+            alert("Ups, wrong answer.");
         }
     };
 
@@ -79,7 +79,7 @@ const Contact = () => {
                  <div className="captcha">
                     <p >
                         {" "}
-                        {num1}+{num2}
+                        {num1}+{num2}?
                     </p>{" "}
                     <button className="btn refresh" onClick={refresh}><i class="fa fa-refresh" aria-hidden="true"></i></button> </div>
                     <input type='number' onChange={(e) => setAnswer(e.target.value)}></input>
