@@ -38,8 +38,8 @@ const AboutDE = () => {
                         </article>
                     </div>
 
-                    <p>
-                    Als Webentwicklerin mit sozialwissenschaftlichem und kommunikativem Hintergrund sehe ich das transformative Potenzial der Digitalisierung für unsere Gesellschaft und liebe es, diese endlosen Möglichkeiten zu erforschen. Ich nutze mein transdisziplinäres Wissen, um nachhaltige, gut durchdachte Web-Lösungen zu entwickeln. Meine Erfahrung in der Wissenschaftskommunikation und im Verlagswesen hilft mir dabei, digitale Produkte zu schaffen, die tatsächlich etwas bewirken, und sie mit Blick auf die Bedürfnisse des Zielpublikums zu gestalten (einschließlich Barrierefreiheit). 
+                    <p className="about-me__text">
+                    Als Webentwicklerin mit sozialwissenschaftlichem und kommunikativem Hintergrund sehe ich das transformative Potenzial der Digitalisierung für unsere Gesellschaft und liebe es, diese endlosen Möglichkeiten zu erforschen. Ich nutze mein transdisziplinäres Wissen, um nachhaltige, gut durchdachte Web-Lösungen zu entwickeln. <br/> <br/>Meine Erfahrung in der Wissenschaftskommunikation und im Verlagswesen hilft mir dabei, digitale Produkte zu schaffen, die tatsächlich etwas bewirken, und sie mit Blick auf die Bedürfnisse des Zielpublikums zu gestalten (einschließlich Barrierefreiheit). 
                         
                         <br/> <br/>Ich bringe Wärme und ausgeprägte Kommunikationsfähigkeiten in ein Team ein, ebenso wie ein Auge für Innovation und Ästhetik. Ich arbeite sehr ergebnisorientiert und lege viel Wert auf gutes Projektmanagement. Meine Kolleg*innen schätzen meine Kreativität und mein Talent, immer neue Tools zu finden, und sie sehen mich als hilfsbereit, zuverlässig und anpassungsfähig. Ich fühle mich in einem kollaborativen Umfeld wohl, in dem Teamarbeit, lebenslanges Lernen und Nachhaltigkeit hohen Stellenwert haben.
 

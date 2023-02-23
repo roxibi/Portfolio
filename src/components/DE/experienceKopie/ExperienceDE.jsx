@@ -5,7 +5,7 @@ const ExperienceDE = () => {
     const blocks = {
         Frontend: ["JavaScript", "React", "Tailwind","HTML", "CSS",  "Bootstrap"],
         Backend: ["Node JS", "Express JS", "MongoDB", "PostgreSQL"],
-        Methodologien: ["Git", "Scrum", "Kanban", "UI/UX Design"],
+        Methodologien: ["Git", "Scrum", "Kanban", "UI/UX Design", "Pair Programming", "Projektmanagement"],
         Tools: ["Adobe CC", "Wordpress", "Typo3", "Figma", "Github"],
     };
 

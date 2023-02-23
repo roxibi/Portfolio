@@ -3,9 +3,9 @@ import "./experience.css";
 
 const Experience = () => {
     const blocks = {
-        Frontend: ["JavaScript", "React", "Tailwind", "HTML", "CSS", "Bootstrap"],
+        Frontend: ["Vanilla JavaScript", "React", "Tailwind", "HTML", "CSS", "Bootstrap"],
         Backend: ["Node JS", "Express JS", "MongoDB", "PostgreSQL"],
-        Methodologies: ["Git", "Scrum", "Kanban", "UI/UX Design"],
+        Methodologies: ["Git", "Scrum", "Kanban", "UI/UX Design", "Pair Programming", "Project management"],
         Tools: ["Adobe CC", "Wordpress", "Typo3", "Figma", "Github"],
     };
 

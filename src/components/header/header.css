@@ -129,17 +129,19 @@ img {
         display: none;
     }
     .header__container h2 {
-        font-size: 50px;
-        line-height: 5rem;
-    }
-    .capitals {
-        max-width: 95%;
-    }
-}
-@media screen and (max-width: 600px) {
-    .header__container h2 {
-        font-size: 2.5rem;
+        font-size: 40px;
         line-height: 3rem;
+    }
+
+    .header__container{
+        position: static;
+    }
+    
+}
+@media screen and (max-width: 300px) {
+    .header__container h2 {
+        font-size: 2rem;
+        line-height: 2rem;
     }
 }
 .buttons-lang{
@@ -150,12 +152,19 @@ img {
 .btnEn {
    
     padding: 0.3rem;
+    margin-top: 1rem;
+    margin-right: 0.5rem;
+ 
     
 }
 .btnDe {
-    
+    margin-top: 1rem;
+    margin-right: 1rem;
     padding: 0.3rem;
 }
 .h2De{
     font-size: 2rem;
+    }
+    .capitals h2{
+        font-size: 40px;
     }

@@ -38,7 +38,7 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p>
+                    <p className="about-me__text">
                         As a web developer with a
                         background in social sciences and communication, I  make
                         use of my transdisciplinary knowledge to build sustainable, well-designed web solutions. I like creating digital products that

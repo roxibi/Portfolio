@@ -8,7 +8,7 @@ const PortfolioDE = () => {
         {
             id: 1,
             image: BB,
-            stack:["React" , "Tailwind" , "NodeJS" , "ExpressJS" , "xzing library" , "Google Books API" , "Netlify" , "Cyclic"],
+            stack:["React" , "Tailwind" , "NodeJS" , "ExpressJS" , "MongoDB", "xzing library" , "Google Books API" , "Netlify" , "Cyclic"],
             title: "Bookbandits",
             description:
                 "Eine App die das Teilen von Büchern ermöglicht. Einfach den Barcode scannen und Bücher zum eigenen Profil hochladen, dann das Katalog durchsuchen und Bücher von anderen ausleihen. in Zusammenarbeit mit Michel W., Tiefengnom.",

@@ -8,7 +8,7 @@ const Portfolio = () => {
         {
             id: 1,
             image: BB,
-            stack:["React" , "Tailwind" , "NodeJS" , "ExpressJS" , "xzing library" , "Google Books API" , "Netlify" , "Cyclic"],
+            stack:["React" , "Tailwind" , "NodeJS" , "ExpressJS" , "MongoDB","xzing library" , "Google Books API" , "Netlify" , "Cyclic"],
             title: "Bookbandits",
             description:
                 "A book-sharing platform made easy: use your webcam to scan your books and add them to your public profile. Then browse and borrow books from other people's bookshelves! A collaboration with Michel W., aka Tiefengnom.",

@@ -5,22 +5,33 @@ import "./header.css";
 
 const Header = () => {
     return (
-        <header id="header">
+        <header id='header'>
             <div className='container header__container'>
-            <div className="buttons-lang">
-            <button className="language btn btn-primary btnEn" ><a href='/en'> EN</a></button> <button className="language btn btn-primary btnDe"> <a href='/'> DE</a></button></div>
-            <div>  <p>Hello I'm</p>   
-                        </div>
-                      
+                <div className='buttons-lang'>
+                    <button className='language btn btn-primary btnEn'>
+                        <a href='/en'> EN</a>
+                    </button>{" "}
+                    <button className='language btn btn-primary btnDe'>
+                        {" "}
+                        <a href='/'> DE</a>
+                    </button>
+                </div>
+                <div>
+                    {" "}
+                    <p>Hello I'm</p>
+                </div>
+
                 <h1>Roxana Bita</h1>
-                <h2 className="capitals">FULLSTACK WEB DEVELOPER</h2>
+                <h2 className='capitals'>FULLSTACK WEB DEVELOPER</h2>
                 <CTA />
-            
+
                 {/* <div className="img">
                   <img src={color} alt=""></img>
                 </div> */}
                 <Socials />
-                <a href="#contact" className="scroll__down">Scroll Down</a>
+                <a href='#contact' className='scroll__down'>
+                    Scroll Down
+                </a>
             </div>
         </header>
     );
