@@ -2,6 +2,7 @@ import React from "react";
 import "../../porfolio/portfolio.css";
 import BB from "../../../assets/mockup-bb.png";
 import News from "../../../assets/mockup-news.png";
+import Zappys from "../../../assets/mockup-math.png";
 
 const PortfolioDE = () => {
     const projects = [
@@ -24,6 +25,16 @@ const PortfolioDE = () => {
                 "Eine News-App die die wichtigsten Nachrichten aus einer API holt, und diese für jede Kategorie, die mich interessiert, auf einem Blick darstellt.",
             github: "https://github.com/roxibi/my-daily-news.github.io",
             demo: "https://my-daily-news.netlify.app/",
+        },
+        {
+            id: 3,
+            image: Zappys,
+            stack:["React" , "JavaScript", "CSS" , "emailjs", "jspdf" , "Netlify"],
+            title: "Zappys Math Generator",
+            description:
+                "Made for a teacher at a Toronto highschool, following her specifications and needs I made an app which generates randomised math operations, giving the option to set the operation sign and to download a layouted PDF of the worksheet.",
+            github: "https://github.com/roxibi/Zappys-Math-Generator",
+            demo: "https://zappys.netlify.app/",
         },
         // {
         //     id: 3,

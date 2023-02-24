@@ -57,7 +57,7 @@ const Portfolio = () => {
                     projects.map((p) => ( 
                         <article className='portfolio-item'>
                             <div className='portfolio__item-image'>
-                                <img src={p.image} alt='mockup website' />
+                              <a href={p.demo} target='_blank' rel="noreferrer">  <img src={p.image} alt='mockup website' /></a>
                             </div>
                             <ul className="stack">{p.stack.map((s)=>{return <li><i class="fa fa-wrench" aria-hidden="true"></i>{s}</li>})}</ul>
                             <h3>{p.title}</h3>
