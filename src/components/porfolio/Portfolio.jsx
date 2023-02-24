@@ -32,7 +32,7 @@ const Portfolio = () => {
             stack:["React" , "JavaScript", "CSS" , "emailjs", "jspdf" , "Netlify"],
             title: "Zappys Math Generator",
             description:
-                "Made for a teacher at a Toronto highschool, following her specifications and needs I made an app which generates randomised math operations, giving the option to set the operation sign and to download a layouted PDF of the worksheet.",
+                "Made for a teacher at a Toronto highschool, following her specifications and needs this app generates randomised math operations, giving the option to set the operation sign and to download a layouted PDF of the worksheet.",
             github: "https://github.com/roxibi/Zappys-Math-Generator",
             demo: "https://zappys.netlify.app/",
         },
